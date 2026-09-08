@@ -1,0 +1,17 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Proyecto final de Programacion con JavaScript II - buscador de recetas con API remota y arquitectura MVC.",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir dist --no-optimize"
+  },
+  "author": "Fernando Macias de la Cruz",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  },
+  "type": "module"
+}
